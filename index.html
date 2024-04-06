@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>XXX Cosme</title>
+        
+        <!--リセットCSS↓-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> 
+        <!--リセットCSS↑-->
+        
+        <!--フォント↓-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <!--フォント↑-->
+        
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+        
+        <!--Favicon↓-->
+        <link rel="icon" type="image/png" href="images/logo.png">
+        <!--Favicon↑-->
+    </head>
+    
+    
+    
+    <body>
+        <header id="top">
+            <button id="menu_btn">
+                <img class="icons" src="images/menu.png">
+            </button>
+            <div id="logo"><a href="#top"><img src="images/logo.png"></a><a href="#top"><p>XXX Cosme</p></a>
+            </div>
+            <button id="search"><img class="icons" src="images/search.png"></button>
+            <a href="#"><img class="icons" id="cart" src="images/cart.png"></a>
+            
+            <!--サイドメニュー↓-->
+            <div id="menu">
+                <button id="close_btn"><img class="icons" src="images/close_btn.png" alt="閉じる"></button>
+                <ul>
+                    <li><a href="#1">新商品</a></li>
+                    <li><a href="#2">ランキング</a></li>
+                    <li><a href="#3">おすすめ</a></li>
+                    <li><a href="#4">カテゴリー</a></li>
+                    <li><a href="#5">お知らせ</a></li>
+                    <li><a href="#6">お問い合わせ</a></li>
+                </ul>
+            </div>
+            <!--サイドメニュー↑-->
+            
+            <!--検索ボックス↓-->
+            <div id="search_box" class="toggle">
+                <form action="" method="get">
+                    <input type="search" name="search">
+                    <input type="submit" name="submite" value="検索">
+                </form>
+            </div>
+            <!--検索ボックス↑-->
+        </header>
+        <div id="main">
+            <div id="first_view"><h1>XXX Cosme</h1></div>
+            <div id="content" class="wrapper">
+                <section>
+                    <div id="slide_container">
+                        <div class="item_slides">
+                            <img id="slide" src="images/sample1.jpg" alt="商品スライド">
+                        </div>
+                        <div class="item_slides">
+                            <img id="slide2" src="images/sample4.jpg" alt="商品スライド">
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="1">新商品</h2>
+                        <div id="new_item">
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="2">ランキング</h2>
+                        <div id="ranking">
+                        </div>
+                    </div>
+                    <div>
+                        <h2 id="3">おすすめ</h2>
+                        <div id="recommend">
+                        </div>
+                    </div>
+                </section>
+                <aside>
+                    <div>
+                        <h3 id="4">カテゴリー</h3>
+                        <ul>
+                            <li><a href="#">カテゴリー1</a></li>
+                            <li><a href="#">カテゴリー2</a></li>
+                            <li><a href="#">カテゴリー3</a></li>
+                            <li><a href="#">カテゴリー4</a></li>
+                            <li><a href="#">カテゴリー5</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 id="5">お知らせ</h3>
+                        <div><p class="date">MM/DD/YYYY</p><p><span>title</span><br>ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。</p></div>
+                        
+                        <div><p class="date">MM/DD/YYYY</p><p><span>title</span><br>ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。</p></div>
+                        
+                        <div><p class="date">MM/DD/YYYY</p><p><span>title</span><br>ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。ここにお知らせの文章が入ります。</p></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <footer>
+            <div id="site_map" class="wrapper">
+                <div>
+                    <p><a href="#">利用規約</a></p>
+                    <p><a href="#">会社概要</a></p>
+                    <p><a href="#">プライバシーポリシー</a></p>
+                </div>
+                
+                <div id="6">
+                    <p><a href="#">お問い合わせ</a></p>
+                    <p><a href="#">よくある質問</a></p>
+                </div>
+                
+                <div id="find">
+                    <p>カテゴリーから探す</p>
+                    <p><a href="#">カテゴリー1</a></p>
+                    <p><a href="#">カテゴリー2</a></p>
+                    <p><a href="#">カテゴリー3</a></p>
+                    <p><a href="#">カテゴリー4</a></p>
+                    <p><a href="#">カテゴリー5</a></p>
+                </div>
+            </div>
+            <div id="copyright"><p><small>&copy; 2024 ABC Cosme</small></p></div>
+            <div id="sns">
+                <a href="#"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            </div>
+        </footer>
+    </body>
